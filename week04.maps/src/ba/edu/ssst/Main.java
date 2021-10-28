@@ -6,7 +6,7 @@ import java.util.Map;
 public class Main {
 
     public static void main(String[] args) {
-        Map osnovnaMapa = new HashMap<String, String>();
+        Map<String, String> osnovnaMapa = new HashMap<String, String>();
 //        Map osnovnaMapa = new TreeMap<String, String>();
 //        Map osnovnaMapa = new LinkedHashMap<>();
 
@@ -25,20 +25,20 @@ public class Main {
 
         System.out.println("");
         System.out.println("Entry Set");
-        for (Object element : osnovnaMapa.entrySet()) {
-            System.out.println(element);
+        for (Map.Entry<String, String> element : osnovnaMapa.entrySet()) {
+            System.out.println(element.getKey());
             System.out.println(element.getClass());
         }
 
         System.out.println("");
         System.out.println("Values");
-        for (Object element: osnovnaMapa.values()) {
+        for (String element: osnovnaMapa.values()) {
             System.out.println(element);
         }
 
         System.out.println("");
         System.out.println("Keys");
-        for (Object element: osnovnaMapa.keySet()) {
+        for (String element: osnovnaMapa.keySet()) {
             System.out.println(element);
         }
     }
