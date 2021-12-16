@@ -1,0 +1,31 @@
+
+Process file line-by-line and parse each line according to information mentions above
+
+a) Create class Employee that will keep information about employee first name, last name and salary;
+
+b) Create class Department that will have name on department and a list of all employees for that specific department;
+
+c) Create class for storing information about employees and departments as Singleton that will keep list of all departments;
+
+
+- Output in terminal employee with highest salary in all departments
+    - In order to accomplish this task you will need to add method for maximum salary in Department class.
+
+- Output in terminal employees with highest salary per department
+    - In order to accomplish this task you will need to add method for maximum salary in Department class.
+
+- Output in terminal employee with lowest salary in all departments
+    - In order to accomplish this task you will need to add method for minimum salary in Department class.
+
+- Output in terminal employees with lowest salary per department
+    - In order to accomplish this task you will need to add method for minimum salary in Department class.
+
+- Output average salary in all departments
+    - In order to accomplish this task you will need to add method for average salary in Department class.
+
+- Output average salary per department
+    - In order to accomplish this task you will need to add method for average salary in De- partment class
+
+
+- Output number of employees each department can hire if budget for each is 20.000, for new
+  employee salary take average salary of existing employees
